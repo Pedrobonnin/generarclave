@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Validación de Formulario con Javascript</title>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<main>
+	    <form id="formulario">
+			<fieldset><legend>Generá tu clave única</legend>
+				<div>
+					<div>
+						<label for="nombre" >Nombre</label> <br>
+						<input  class="formulario__input" type="text name="nombre" id="nombre" placeholder="Tomas">
+					</div>
+				</div>
+
+				<div>
+					<div>
+						<label for="apellido">Apellido</label> <br>
+						<input class="formulario__input" type="text name="apellido" id="apellido" placeholder="Regner">
+					</div>
+				</div>
+
+				<div>
+					<div>
+						<label for="fecha">Fecha</label> <br>
+						<input class="formulario__input" type="text name="fecha" id="fecha" placeholder="dd/mm/aa">
+					</div>
+				</div>
+
+				<div>
+					</div>
+						<label> Dni </label> <br>
+						<input  class="formulario__input" type="text name="dni" id="dni"  placeholder="DNI" >
+					</div>
+				</div>
+
+				<div class="formulario__grupo button">
+					<input  type="submit" id="button" value="Generar">
+				</div>
+			</fieldset>
+			<div class="key" id="respuesta">
+
+			</div>
+		</form>
+	</main>
+	
+
+
+	<script src="./formulario.js"></script>
+</body>
+</html>
